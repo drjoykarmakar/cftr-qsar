@@ -1,9 +1,9 @@
 # CFTR QSAR Pipeline
 
 **Machine Learning prediction of CFTR potentiator activity**  
-Open-source RDKit + Random Forest / XGBoost pipeline for medicinal chemists working on cystic fibrosis (Verkman lab targets).
+Open-source RDKit + Random Forest / XGBoost pipeline for medicinal chemists working on cystic fibrosis.
 
-### Current Results (32 compounds from all your articles)
+### Current Results (32 compounds)
 - **32 compounds** total
 - Valid molecules with SMILES: **8/32**
 - **Random Forest** R² = **-0.008** | RMSE = **0.343**
@@ -31,7 +31,7 @@ After the notebook finishes:
 - Click **Runtime → Run all** again
 - Check the new prediction in the plots
 
-**Note**: With 32 compounds the predictions are still exploratory. We are actively expanding the dataset with more literature data.
+**Note**: With 32 compounds, the predictions are still exploratory. We are actively expanding the dataset with more literature data.
 
 ### Citation
 If you use or build upon this work, please cite:
